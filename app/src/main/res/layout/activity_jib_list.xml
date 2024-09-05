@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Jib Item 1 -->
+    <LinearLayout
+        android:id="@+id/jibItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/jibImage1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/new1" />
+
+        <TextView
+            android:id="@+id/jibName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SSD \nPRICE 5000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <!-- Jib Item 2 -->
+    <LinearLayout
+        android:id="@+id/jibItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/jibImage2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/new2" />
+
+        <TextView
+            android:id="@+id/jibName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPU RTX\nPRICE 25000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Jib Item 3 -->
+    <LinearLayout
+        android:id="@+id/jibItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/jibImage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/new3" />
+
+        <TextView
+            android:id="@+id/jibName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPU GTX\nPRICE 15000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Jib Item 4 -->
+    <LinearLayout
+        android:id="@+id/jibItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/jibImage4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/new7" />
+
+        <TextView
+            android:id="@+id/jibName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PC \nPRICE 7000"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
