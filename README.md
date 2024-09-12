@@ -10,6 +10,6 @@
 # technology: [android studio]
 
 # presentation: [canva] link:
-# VDO: link:
+# VDO: link: https://youtu.be/ZOMqa4Zxx-c
 # video: link [public]
 
